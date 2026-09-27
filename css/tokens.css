@@ -1,0 +1,52 @@
+/* DOUGH LAB — Design Tokens (two-tier: primitive + semantic) */
+:root {
+  /* Primitives */
+  --cream-50: #FAF7F0;
+  --cream-100: #F5F0E7;
+  --cream-200: #EDE5D5;
+  --parchment-300: #E7DDCC;
+  --parchment-400: #D9CCB4;
+  --ink-900: #211C18;
+  --charcoal-800: #302B27;
+  --charcoal-700: #3E3833;
+  --charcoal-600: #57504A;
+  --gold-500: #C78A48;
+  --gold-600: #A96F32;
+  --tomato-600: #B84432;
+  --tomato-700: #A93225;
+  --sage-500: #7C8667;
+  --sage-700: #5A6249;
+  --cheese-400: #D8B65D;
+  --line-dark: rgba(33, 28, 24, 0.14);
+  --line-light: rgba(245, 240, 231, 0.16);
+
+  /* Semantic */
+  --color-bg: var(--cream-100);
+  --color-bg-deep: var(--cream-50);
+  --color-surface: var(--parchment-300);
+  --color-ink: var(--ink-900);
+  --color-ink-soft: var(--charcoal-800);
+  --color-muted: #6B6259;
+  --color-accent: var(--tomato-600);
+  --color-accent-deep: var(--tomato-700);
+  --color-gold: var(--gold-500);
+  --color-dark: var(--ink-900);
+  --color-dark-2: var(--charcoal-800);
+  --color-cream: var(--cream-100);
+  --color-cheese: var(--cheese-400);
+  --color-sage: var(--sage-500);
+
+  /* Type */
+  --font-display: "Fraunces", "DM Serif Display", Georgia, serif;
+  --font-sans: "Instrument Sans", "Inter", "Manrope", system-ui, sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-cinema: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Space / layout */
+  --max: 1320px;
+  --gutter: clamp(20px, 4vw, 48px);
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --shadow-soft: 0 20px 60px rgba(33, 28, 24, 0.14);
+}

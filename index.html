@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dough Lab — Authentic Sourdough Pizza &amp; Café</title>
+  <meta name="description" content="Dough Lab crafts authentic sourdough pizzas, handcrafted sandwiches, coffee and comfort food with real fermentation, bold flavours and fresh ingredients." />
+  <meta property="og:title" content="Dough Lab — Authentic Sourdough Pizza & Café" />
+  <meta property="og:description" content="Slow fermentation. Hand-stretched pizza. Big flavour. Real fermentation, real culture." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1200&auto=format&fit=crop" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23211C18'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%23F5F0E7' stroke-width='2' stroke-dasharray='4 4'/%3E%3Ctext x='32' y='39' font-family='Georgia' font-size='20' fill='%23D8B65D' text-anchor='middle'%3EDL%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Dough Lab","servesCuisine":["Pizza","Cafe","Vegetarian"],"priceRange":"₹₹","description":"Authentic sourdough pizzas, handcrafted sandwiches, coffee and comfort food with real fermentation."}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="announce">
+    <div class="wrap">
+      <span>Slow fermented <span class="dot">✦</span> hand-stretched <span class="dot">✦</span> baked to order</span>
+      <a data-config-href="order" href="#visit">Visit us →</a>
+    </div>
+  </div>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Dough Lab home">
+        <span class="brand-mark" aria-hidden="true">DL</span>
+        <span class="brand-word">DOUGH LAB<span>EST. FERMENT</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#menu">Menu</a>
+        <a href="#dough">Our Dough</a>
+        <a href="#lab">The Lab</a>
+        <a href="#visit">Visit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div style="display:flex;gap:10px;align-items:center">
+        <a class="btn btn-solid btn-sm nav-cta" data-config-href="order" href="#visit">Order / Visit <span class="arr">↗</span></a>
+        <button class="burger" data-open-menu aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mmenu" id="mmenu" aria-hidden="true">
+    <button class="mmenu-close" data-close-menu aria-label="Close menu">✕</button>
+    <a class="big" href="#menu">Menu <small>01</small></a>
+    <a class="big" href="#dough">Our Dough <small>02</small></a>
+    <a class="big" href="#lab">The Lab <small>03</small></a>
+    <a class="big" href="#visit">Visit <small>04</small></a>
+    <a class="big" href="#contact">Contact <small>05</small></a>
+    <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn btn-red" data-config-href="order" href="#visit">Order / Visit ↗</a>
+      <a class="btn btn-cream" data-config-href="call" href="tel:+910000000000">Call</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- 01 HERO -->
+    <section class="hero grain" id="top">
+      <div class="hero-bg"><img id="heroImg" src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2000&auto=format&fit=crop" alt="Sourdough pizza emerging from a hot oven with blistered crust" fetchpriority="high" /></div>
+      <div class="hero-shade"></div>
+      <div class="wrap hero-inner">
+        <div class="reveal in">
+          <div class="hero-kicker">
+            <span class="pill"><span class="live"></span> Wood-fired · today</span>
+            <span class="pill">Culture · Ferment · Bake</span>
+          </div>
+          <h1 class="h-display h-1">AUTHENTIC<br /><span class="italic">SOURDOUGH.</span></h1>
+          <p class="hero-sub">Slow fermentation. Hand-stretched pizza. Big flavour.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-red" href="#menu">Explore the menu <span class="arr">↗</span></a>
+            <a class="btn btn-cream" href="#dough">Our sourdough</a>
+          </div>
+          <p class="hero-proof">Real fermentation. Real culture. No commercial sourdough mixes.</p>
+        </div>
+        <aside class="hero-side">
+          <div class="hero-card">
+            <b>From culture to crust</b>
+            Whole wheat + 00 flour blend, stretched by hand, finished with aged Parmesan on select pizzas.
+          </div>
+          <div class="hero-steps"><span>Ferment</span><i>↓</i><span>Shape</span><i>↓</i><span>Bake</span><i>↓</i><span>Serve</span></div>
+        </aside>
+      </div>
+      <div class="wrap hero-foot"><span>Dough Lab — Café &amp; Bake</span><span class="scroll-hint">Scroll</span><span>N 01 — The Hero</span></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track">
+      <span>Fermented, stretched, baked</span><span>Whole wheat + 00 flour</span><span>Aged Parmesan finish</span><span>Jain option</span>
+      <span>Fermented, stretched, baked</span><span>Whole wheat + 00 flour</span><span>Aged Parmesan finish</span><span>Jain option</span>
+    </div></div>
+
+    <!-- 02 TIME -->
+    <section class="section" id="time">
+      <div class="wrap time-grid">
+        <figure class="reveal">
+          <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=1200&auto=format&fit=crop" alt="Flour, ingredients and hands preparing dough on a wooden bench" loading="lazy" />
+          <figcaption class="caption"><span>Fig. 01 — Morning fold, bench flour</span><span>CRUMB / STRUCTURE</span></figcaption>
+        </figure>
+        <div class="reveal">
+          <p class="eyebrow">The idea</p>
+          <h2 class="big-statement">TIME IS OUR MOST IMPORTANT <em>INGREDIENT.</em></h2>
+          <p class="lede">We wanted pizza with more character. That meant going back to the dough — real fermentation, careful preparation, hand stretching. We don't treat dough as a shortcut. We give it time.</p>
+          <p class="muted">Flavour starts before the oven. From culture to crust, the long way round to a better slice.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- 03 THE DOUGH LAB -->
+    <section class="section dark grain" id="dough" style="padding-bottom:0">
+      <div class="wrap">
+        <div class="process-head reveal">
+          <div>
+            <p class="eyebrow on-dark">The method</p>
+            <h2 class="h-display h-2">THE DOUGH<br /><em style="color:var(--color-cheese)">LAB.</em></h2>
+          </div>
+          <p style="color:rgba(245,240,231,.72);max-width:38ch">Four stages, one obsession. Almost like a design lab — measured, calm, deliberate. Fermentation ↓ Structure ↓ Flavour ↓ Crust.</p>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><span class="step-num">01</span><h3>Culture</h3><p>Real sourdough culture and fermentation. Nothing instant, nothing premixed.</p><span class="tag">Lab note 01</span><div class="step-img"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop" alt="Sourdough starter and flour" loading="lazy" /></div></div>
+          <div class="step reveal"><span class="step-num">02</span><h3>Ferment</h3><p>We give the dough time to develop flavour and character.</p><span class="tag">Lab note 02</span><div class="step-img"><img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?q=80&w=800&auto=format&fit=crop" alt="Fermenting dough in warm light" loading="lazy" /></div></div>
+          <div class="step reveal"><span class="step-num">03</span><h3>Stretch</h3><p>Each pizza is hand-stretched to order. No rollers, no shortcuts.</p><span class="tag">Lab note 03</span><div class="step-img"><img src="https://images.unsplash.com/photo-1571066811602-716837d681de?q=80&w=800&auto=format&fit=crop" alt="Hands stretching pizza dough" loading="lazy" /></div></div>
+          <div class="step reveal"><span class="step-num">04</span><h3>Bake</h3><p>Finished with toppings and aged Parmesan. Blistered, airy, alive.</p><span class="tag">Lab note 04</span><div class="step-img"><img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" alt="Pizza baking in a fiery oven" loading="lazy" /></div></div>
+        </div>
+      </div>
+
+      <!-- 04 INTENTION -->
+      <div style="background:var(--color-bg);color:var(--color-ink);margin-top:0">
+        <div class="wrap section">
+          <div class="reveal"><span class="labnote"><i></i> Ingredient philosophy</span>
+            <h2 class="h-display h-2">MADE WITH<br />INTENTION.</h2>
+            <p class="lede">Thoughtfully made. Slow fermented. Freshly prepared. Ingredient-led. Handcrafted. — culinary claims only, nothing medical.</p>
+          </div>
+          <div class="intention-grid">
+            <div class="int-list reveal">
+              <div class="int-row"><span class="int-ico">◈</span><div><h3>Real fermentation</h3><p>Dough made through real sourdough fermentation — the result section of our story.</p></div><span class="n">/01</span></div>
+              <div class="int-row"><span class="int-ico">⬡</span><div><h3>Whole wheat + 00 flour</h3><p>Our sourdough pizza uses a blend of high-quality whole wheat flour and 00 flour.</p></div><span class="n">/02</span></div>
+              <div class="int-row"><span class="int-ico">✳</span><div><h3>Freshly prepared</h3><p>Sauces, toppings and dough prepped fresh — flavour you can taste.</p></div><span class="n">/03</span></div>
+              <div class="int-row"><span class="int-ico">❋</span><div><h3>Vegetarian flavours</h3><p>A strong vegetarian menu with creative, confident combinations.</p></div><span class="n">/04</span></div>
+              <div class="int-row"><span class="int-ico">◎</span><div><h3>Jain option</h3><p>A dedicated Jain Special — Jain pizza sauce, thoughtfully made.</p></div><span class="n">/05</span></div>
+              <div class="int-row"><span class="int-ico">⬔</span><div><h3>Aged Parmesan</h3><p>Selected pizzas finished with aged Parmesan. Salty, deep, nutty.</p></div><span class="n">/06</span></div>
+            </div>
+            <div class="int-photo reveal">
+              <img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?q=80&w=1200&auto=format&fit=crop" alt="Close-up of sourdough pizza with basil and tomato" loading="lazy" />
+              <p class="caption"><span>Fig. 02 — Crumb, cheese, basil</span><span>LAB NOTE 04</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 SIGNATURES -->
+    <section class="section" id="signatures">
+      <div class="wrap">
+        <div class="sig-head reveal">
+          <div><p class="eyebrow">The signatures</p><h2 class="h-display h-2">THE<br />SIGNATURES.</h2></div>
+          <p class="lede" style="max-width:36ch">Sourdough, stretched by hand. Flavours inspired by everywhere. Large format, made to share.</p>
+        </div>
+        <div class="sig-grid">
+          <article class="sig-hero reveal">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1400&auto=format&fit=crop" alt="Makhani Cottage signature sourdough pizza" loading="lazy" />
+            <div class="sig-hero-body">
+              <span class="small" style="color:var(--color-cheese)">N°1 — Signature sourdough · Large</span>
+              <h3 class="h-display" style="font-size:clamp(34px,4vw,56px);margin:8px 0">Makhani Cottage</h3>
+              <p style="max-width:44ch;color:rgba(255,255,255,.85)">Creamy makhani cottage with capsicum and melted cheese. Rich Indian flavours on an artisan base.</p>
+              <div class="tags"><span class="tag">Signature</span><span class="tag"><span class="dot-green"></span>Veg</span></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:16px"><span class="price">₹450</span><a class="link-arrow" style="color:#fff;border-color:#fff" href="#menu">See full menu →</a></div>
+            </div>
+          </article>
+          <div class="sig-side">
+            <article class="sig-card reveal">
+              <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop" alt="Spicy Korean pizza with melted cheese" loading="lazy" />
+              <div class="sig-card-body"><span class="small muted">N°2 — Spicy · ₹390</span><h3>Spicy Korean</h3><p>Tangy, spicy fusion flavours topped with gooey cheese.</p><span class="mini-tag spicy">● Spicy</span></div>
+            </article>
+            <article class="sig-card reveal">
+              <img src="https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?q=80&w=800&auto=format&fit=crop" alt="Margherita Classico with fresh basil" loading="lazy" />
+              <div class="sig-card-body"><span class="small muted">N°3 — Classic · ₹320</span><h3>Margherita Classico</h3><p>Classic tomato sauce, mozzarella + cheddar. The benchmark.</p><span class="mini-tag">Veg</span></div>
+            </article>
+          </div>
+        </div>
+        <div class="sig-list">
+          <div class="sig-mini reveal"><h3>Verdure Trio — ₹350</h3><p>Onion, capsicum and jalapeños. Fresh heat, generous cheese.</p><div class="row"><span class="mini-tag spicy">● Spicy</span><a class="link-arrow" href="#menu">Menu →</a></div></div>
+          <div class="sig-mini reveal"><h3>Cottage Feast — ₹450</h3><p>Cottage, jalapeños, capsicum with a rich cheese blend.</p><div class="row"><span class="mini-tag">Veg</span><a class="link-arrow" href="#menu">Menu →</a></div></div>
+          <div class="sig-mini reveal"><h3>Jain Special — ₹350</h3><p>Capsicum, olives, corn, jalapeños on Jain pizza sauce.</p><div class="row"><span class="mini-tag jain">Jain</span><a class="link-arrow" href="#menu">Menu →</a></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 WHY WAIT -->
+    <section class="section dark grain" id="why">
+      <div class="wrap wait-grid">
+        <div class="reveal">
+          <p class="eyebrow on-dark">Why sourdough?</p>
+          <h2 class="h-display h-2">WHY WE<br />WAIT.</h2>
+          <p style="color:rgba(245,240,231,.78);font-size:18px;max-width:46ch">Good dough cannot be rushed. Culture, fermentation, time, texture, flavour — in human language, no lecture.</p>
+          <div class="timeline"><div><b>Time</b>We let it sit.</div><div><b>Ferment</b>Flavour builds.</div><div><b>Bake</b>Character sets.</div></div>
+          <p class="small" style="margin-top:18px;color:rgba(245,240,231,.6)">Lab note 05 — Jain option · Lab note 02 — Hand-stretched</p>
+        </div>
+        <figure class="wait-visual reveal" style="margin:0">
+          <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=1200&auto=format&fit=crop" alt="Macro shot of blistered sourdough crust" loading="lazy" />
+          <div class="wait-badge"><span><b>From culture to crust</b>The long way round to a better slice.</span><span class="price">72h*</span></div>
+        </figure>
+      </div>
+      <p class="wrap" style="color:rgba(245,240,231,.45);font-size:12px;margin-top:14px">*Illustrative rhythm only — exact fermentation timings follow the café's verified process.</p>
+    </section>
+
+    <!-- 07 INSIDE THE LAB -->
+    <section class="section" id="lab">
+      <div class="wrap">
+        <div class="reveal"><p class="eyebrow">Inside the lab</p><h2 class="h-display h-2">FLOUR, FIRE<br />&amp; PATIENCE.</h2>
+        <p class="lede">Flour · Culture · Ferment · Shape · Top · Bake. An editorial collage on a hidden grid — no chaos.</p></div>
+        <div class="collage">
+          <figure class="c1 reveal"><img src="https://images.unsplash.com/photo-1627485937980-221c88ac04f9?q=80&w=1000&auto=format&fit=crop" alt="Flour dust in warm light" loading="lazy" /><figcaption>Flour</figcaption></figure>
+          <figure class="c2 reveal"><img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1000&auto=format&fit=crop" alt="Hands working dough in the kitchen" loading="lazy" /><figcaption>Culture</figcaption></figure>
+          <figure class="c3 reveal"><img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=800&auto=format&fit=crop" alt="Fresh tomato sauce ingredients" loading="lazy" /><figcaption>Top</figcaption></figure>
+          <figure class="c4 reveal"><img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?q=80&w=1000&auto=format&fit=crop" alt="Shaping dough on a wooden bench" loading="lazy" /><figcaption>Shape</figcaption></figure>
+          <figure class="c5 reveal"><img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=1400&auto=format&fit=crop" alt="Oven fire and baking pizza" loading="lazy" /><figcaption>Bake</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- 08 FLAVOUR STORIES -->
+    <section class="section" id="stories">
+      <div class="wrap">
+        <div class="reveal"><p class="eyebrow">Flavour stories</p><h2 class="h-display h-2">NOT JUST<br />MARGHERITA.</h2></div>
+        <div class="stories">
+          <article class="story reveal"><span class="idx">/ 01</span><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop" alt="Spicy Korean pizza slice" loading="lazy" /><h3>Spicy Korean</h3><p>Global inspiration meets sourdough. Tangy, fiery, gooey.</p><span class="mini-tag spicy">● Spicy</span></article>
+          <article class="story reveal"><span class="idx">/ 02</span><img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?q=80&w=800&auto=format&fit=crop" alt="Makhani cottage pizza with creamy topping" loading="lazy" /><h3>Makhani Cottage</h3><p>Rich Indian flavours on an artisan base. Creamy, deep, comforting.</p><span class="mini-tag sig">Signature</span></article>
+          <article class="story reveal"><span class="idx">/ 03</span><img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?q=80&w=800&auto=format&fit=crop" alt="Jain special pizza preparation" loading="lazy" /><h3>Jain Special</h3><p>Thoughtfully made for Jain preferences. No compromise on flavour.</p><span class="mini-tag jain">Jain</span></article>
+          <article class="story reveal"><span class="idx">/ 04</span><img src="https://images.unsplash.com/photo-1511689660979-10d2b1aada49?q=80&w=800&auto=format&fit=crop" alt="Verdure trio with fresh vegetables" loading="lazy" /><h3>Verdure Trio</h3><p>Fresh vegetables, heat and cheese. Bright, crunchy, bold.</p><span class="mini-tag">Veg</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 MENU -->
+    <section class="section menu-sec" id="menu">
+      <div class="wrap">
+        <div class="reveal"><p class="eyebrow">The menu</p><h2 class="h-display h-2">EAT WITH<br />INTENT.</h2>
+        <p class="lede">Four doughs, one philosophy. Prices exactly as on the boards — update anytime in <code>js/data.js</code>.</p></div>
+        <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Menu categories"></div>
+        <p class="muted small" id="menuNote" style="margin:0"></p>
+        <div class="menu-panels">
+          <div>
+            <p class="small muted" id="menuCount" style="margin:6px 0 0"></p>
+            <div class="menu-list" id="menuList"></div>
+            <p class="muted" style="font-size:13px;margin-top:14px">Spicy = ● + text label. Jain = text label + marker. Colour is never the only signal. Tap any item for details.</p>
+          </div>
+          <aside class="menu-aside reveal">
+            <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?q=80&w=1000&auto=format&fit=crop" alt="Cheese pull from a fresh sourdough slice" loading="lazy" />
+            <div class="menu-aside-body">
+              <span class="small" style="color:var(--color-cheese)">Dough for a crowd?</span>
+              <h3>Catering &amp; parties.</h3>
+              <p>Birthdays, college events, office gatherings, private parties. Tell us the headcount — we'll handle the dough.</p>
+              <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"><a class="btn btn-red btn-sm" href="#contact">Enquire for events</a><a class="btn btn-cream btn-sm" data-config-href="whatsapp" href="#">WhatsApp</a></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 CAFE / VISIT -->
+    <section class="section" id="visit">
+      <div class="wrap">
+        <div class="reveal"><p class="eyebrow">The café</p><h2 class="h-display h-2">COME FOR THE DOUGH.<br />STAY FOR THE FLAVOUR.</h2></div>
+        <div class="visit">
+          <div class="visit-photo reveal">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1400&auto=format&fit=crop" alt="Warm café interior with wooden tables" loading="lazy" />
+            <span class="open-badge" id="openBadge"><span class="pulse"></span> Open today — see hours</span>
+          </div>
+          <div class="visit-card reveal">
+            <span class="labnote"><i></i> Visit Dough Lab</span>
+            <dl class="visit-rows">
+              <div><dt>Find us</dt><dd data-config-text="address">[ADD ADDRESS] · [ADD CITY]</dd></div>
+              <div><dt>Hours</dt><dd data-config-text="hours">[ADD HOURS]</dd></div>
+              <div><dt>Call</dt><dd><a data-config-href="call" href="tel:+910000000000" data-config-text="phone">[ADD PHONE]</a></dd></div>
+              <div><dt>Mail</dt><dd><a href="mailto:hello@doughlab.in" data-config-text="email">[ADD EMAIL]</a></dd></div>
+              <div><dt>Parking</dt><dd class="muted">[ADD PARKING INFO]</dd></div>
+            </dl>
+            <div class="visit-ctas">
+              <a class="btn btn-solid" data-config-href="maps" href="https://maps.google.com/?q=Dough+Lab" target="_blank" rel="noopener">Get directions ↗</a>
+              <a class="btn btn-ghost" data-config-href="call" href="tel:+910000000000">Contact us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="two-col" style="margin-top:22px">
+          <div class="panel reveal"><span class="small" style="color:var(--color-accent)">Events</span><h3 class="h-3">Dough for a crowd?</h3><p class="muted">No fixed packages — tell us the occasion and we'll shape something around it.</p><a class="link-arrow" href="#contact">Enquire →</a></div>
+          <div class="panel reveal"><span class="small" style="color:var(--color-accent)">Reviews</span><h3 class="h-3">What people are saying</h3><p class="muted">Customer reviews will appear here once real Google reviews are supplied. No filler, no fiction.</p><span class="mini-tag">Awaiting real reviews</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="section" id="social" style="padding-top:0">
+      <div class="wrap">
+        <div class="reveal" style="display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap">
+          <h2 class="h-display h-2">FOLLOW<br />THE DOUGH.</h2>
+          <a class="btn btn-ghost" data-config-href="instagram" href="#"><span data-config-text="instagram">@DOUGHLAB</span> ↗</a>
+        </div>
+        <div class="social-grid reveal">
+          <img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?q=80&w=800&auto=format&fit=crop" alt="Pizza close-up" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop" alt="Coffee being poured" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=800&auto=format&fit=crop" alt="Café counter" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=800&auto=format&fit=crop" alt="Burger and fries" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" style="padding-top:0">
+      <div class="wrap">
+        <div class="reveal"><p class="eyebrow">Contact</p><h2 class="h-display h-2">LET'S TALK<br />DOUGH.</h2></div>
+        <div class="contact-grid">
+          <div class="big-links reveal">
+            <a data-config-href="call" href="tel:+910000000000"><span>Call</span><span data-config-text="phone">[ADD PHONE] ↗</span></a>
+            <a data-config-href="whatsapp" href="#"><span>WhatsApp</span><span>Chat ↗</span></a>
+            <a data-config-href="instagram" href="#"><span>Instagram</span><span data-config-text="instagram">@DOUGHLAB ↗</span></a>
+            <a href="mailto:hello@doughlab.in"><span>Email</span><span data-config-text="email">[ADD EMAIL] ↗</span></a>
+          </div>
+          <form class="contact reveal" id="contactForm">
+            <div class="form-row">
+              <label>Name<input name="name" required autocomplete="name" placeholder="Your name" /></label>
+              <label>Phone<input name="phone" autocomplete="tel" placeholder="+91 …" /></label>
+            </div>
+            <label>Email<input name="email" type="email" autocomplete="email" placeholder="you@example.com" /></label>
+            <label>Topic
+              <select name="topic"><option>General enquiry</option><option>Reservation</option><option>Event / Catering</option><option>Feedback</option><option>Collaboration</option></select>
+            </label>
+            <label>Message<textarea name="message" required placeholder="Tell us about your plan, party size, date…"></textarea></label>
+            <button class="btn btn-solid" type="submit">Send message <span class="arr">↗</span></button>
+            <p class="form-note">Submits via WhatsApp — no account needed. We reply during café hours.</p>
+            <p class="form-note" id="formDone" hidden tabindex="-1" style="color:var(--color-accent);font-weight:700">Message ready in WhatsApp — press send there to reach us.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div><p class="foot-brand">DOUGH<br /><em>LAB.</em></p><p style="color:rgba(245,240,231,.7);max-width:36ch">Authentic sourdough. Real fermentation. Big flavour. Thoughtfully made, slowly fermented, freshly prepared.</p></div>
+        <div class="foot-col"><h4>Explore</h4><a href="#menu">Menu</a><a href="#dough">Our Dough</a><a href="#lab">The Lab</a><a href="#visit">Visit</a></div>
+        <div class="foot-col"><h4>Contact</h4><a data-config-href="call" href="tel:+910000000000" data-config-text="phone">[ADD PHONE]</a><a href="mailto:hello@doughlab.in" data-config-text="email">[ADD EMAIL]</a><a data-config-href="maps" href="#">Directions ↗</a></div>
+        <div class="foot-col"><h4>Social / Legal</h4><a data-config-href="instagram" href="#">Instagram ↗</a><a data-config-href="whatsapp" href="#">WhatsApp ↗</a><a href="#">Privacy</a><a href="#">Terms</a></div>
+      </div>
+      <div class="foot-base"><span>© Dough Lab <span data-config-year>2026</span> · All flavour reserved.</span><span>Fermented · Stretched · Baked</span></div>
+    </div>
+  </footer>
+
+  <nav class="stickybar" aria-label="Quick actions"><a href="#menu">Menu</a><a data-config-href="call" href="tel:+910000000000">Call</a><a class="primary" data-config-href="maps" href="https://maps.google.com/?q=Dough+Lab">Map</a></nav>
+
+  <div class="sheet-backdrop" id="sheetBackdrop"></div>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetName">
+    <div class="sheet-handle"></div>
+    <p class="small muted" id="sheetCat" style="margin:0 0 6px"></p>
+    <div style="display:flex;justify-content:space-between;gap:16px;align-items:start">
+      <h3 class="h-3" id="sheetName" style="margin:0"></h3>
+      <button class="btn btn-ghost btn-sm" id="sheetClose">Close ✕</button>
+    </div>
+    <p class="muted" id="sheetDesc" style="margin:10px 0"></p>
+    <div class="tags" id="sheetTags" style="margin:0 0 10px"></div>
+    <p class="price" id="sheetPrice"></p>
+    <p class="muted" id="sheetMeta" style="font-size:13px"></p>
+    <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap"><a class="btn btn-red btn-sm" data-config-href="whatsapp" href="#">Order on WhatsApp ↗</a><a class="btn btn-ghost btn-sm" href="#visit" id="sheetVisit">Visit us</a></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
